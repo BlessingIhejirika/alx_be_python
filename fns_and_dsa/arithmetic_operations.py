@@ -1,13 +1,8 @@
 # arithmetic_operations.py
 
-def perform_operation(num1: float, num2: float, operation: str):
+def perform_operation(num1, num2, operation):
     """
     Perform basic arithmetic operations: add, subtract, multiply, divide.
-
-    :param num1: First number (float)
-    :param num2: Second number (float)
-    :param operation: One of ['add', 'subtract', 'multiply', 'divide']
-    :return: Result of operation or an error message for division by zero
     """
     if operation == 'add':
         return num1 + num2
